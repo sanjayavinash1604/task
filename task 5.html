@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>Task 5</title>
+    </head>
+    <body><center>
+        <h1 style="color:blue">Registration Form</h1><form>
+        <table border="1" cellspacing="0" bordercolor="black">
+
+            <tr>
+                <th>First Name</th>
+                <label for="fn"></label>
+                <td><input type="text" name="fn" id="fn" style= 'width:100%'></td>
+                </tr>
+                <th>Last Name</th>
+                <label for="ln"></label>
+                <td><input type="text" name="ln" id="ln"  style= 'width:100%'></td>
+                </tr>
+                <th>Email</th>
+                <label for="mail"></label>
+                <td><input type="email" name="mail" id="mail" style= 'width:100%'></td>
+                </tr>
+                <th>Password</th>
+                <label for="pass"></label>
+                <td><input type="password" name="pass" id="pass" style= 'width:100%'></td>
+                </tr>
+                <th>Re-Enter Password</th>
+                <label for="repass"></label>
+                <td><input type="password" name="pass" id="pass" style= 'width:100%'></td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Gender</th>
+                    <label for="gen"></label>
+                    <td><input type="radio" value="Male"   name="gen" id="gen" >Male</td>
+                    <tr><td><input type="radio" value="Female"   name="gen" id="gen">Female</td>
+                    </tr>
+                    <tr>
+                        <th>Age</th>
+                        <label for="age"></label>
+                        <td><input type="number" name="age" id="age" min="1" style= 'width:100%' ></td>
+                        </tr>
+                        <tr>
+                <th>Phone Number</th>
+                <label for="pn"></label>
+                <td><input type="tel" name="pn" id="pn" pattern="[6-9]{1}[0-9]{9}" style= 'width:100%'></td>
+                </tr>
+                <tr style="height:50px">
+                <th>Address</th>
+                <label for="ad"></label>
+                <td><input type="text" name="ad" id="ad" style= 'width:100%;height:100px' ></td>
+                </tr>
+                <tr>
+                <th>State</th>
+                <label for="st"></label>
+                <td><input type="text" name="st" id="st" style= 'width:100%' ></td>
+                </tr>
+                <tr>
+                <th>Country</th>
+                <label for="co"></label>
+                <td><select name="co" id="co">
+                    <option value="Choose" name="co" id="co">Choose Your Country</option>
+                    <option value="India" name="co" id="co">India</option>
+                    <option value="Dubai" name="co" id="co">Dubai</option>
+                    <option value="Japan" name="co" id="co">Japan</option>
+                    <option value="Sri Lanka" name="co" id="co">Sri Lanka</option>
+                </td>
+                </tr>
+                <tr>
+                    <th>Languages Known</th>
+                    <label for="lng"></label>
+                    <td>
+                        <input type="checkbox" name="tel" id="tel">
+                        <lable for="tel">Telugu</lable>
+                        <input type="checkbox" name="1" id="1">
+                        <lable for="1">English</lable>
+                        <input type="checkbox" name="2" id="2">
+                        <lable for="2">Kannada</lable>
+                        <input type="checkbox" name="3" id="3">
+                        <lable for="3">Hindi</lable>
+                    </td>
+                    </tr>
+                    <tr>
+                    <th colspan="2">
+                    <label for="de"></label>
+                    <input type="checkbox" name="de" id="de">
+                    <lable for="de">I hereby Declare all given details are true</lable></th>
+                </tr>
+                <tr>
+                    <th colspan="2" align="right">
+                    <label for="lin"></label>Login to
+                    <a href="https://codemithra.com">Ethnus</a> Website
+                </tr></table>
+                
+                <br><input type="submit" value="Register"></br></form>
+                   
+                    
+    </center></body>
+</html>
